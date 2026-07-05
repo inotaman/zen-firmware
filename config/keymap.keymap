@@ -40,10 +40,10 @@
 
         layer_1 {
             bindings = <
-&kp ESC           &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6          &kp N7    &kp N8            &kp N9    &kp N0                 &kp BACKSPACE
-&kp CAPS          &trans        &trans            &trans        &trans        &trans        &kp RG(LEFT_BRACKET)  &mkp MB1  &mkp MB3          &mkp MB2  &kp RG(RIGHT_BRACKET)  &trans
-&kp LEFT_SHIFT    &trans        &trans            &trans        &trans        &trans        &trans                &trans    &kp LC(UP_ARROW)  &trans    &trans                 &trans         &trans  &trans
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans        &trans        &trans        &trans                &trans    &trans            &trans    &trans                 &trans
+&kp ESC           &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4  &kp NUMBER_5          &kp NUMBER_6          &kp N7    &kp N8            &kp N9    &kp N0                 &kp BACKSPACE
+&kp CAPS          &kp PG_UP     &kp HOME          &kp UP_ARROW    &kp END       &kp LG(LS(NUMBER_4))  &kp RG(LEFT_BRACKET)  &mkp MB1  &mkp MB3          &mkp MB2  &kp RG(RIGHT_BRACKET)  &trans
+&kp LEFT_SHIFT    &kp PG_DN     &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT     &kp LA(LS(S))         &trans                &trans    &kp LC(UP_ARROW)  &trans    &trans                 &trans         &trans  &trans
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans          &trans        &trans                &trans                &trans    &trans            &trans    &trans                 &trans
             >;
         };
 
