@@ -33,13 +33,13 @@
 &kp TAB           &kp Q         &kp W      &kp E     &kp R               &kp T               &kp Y      &kp U               &kp I                       &kp O           &kp P           &kp BSPC
 &kp ESC           &kp A         &kp S      &kp D     &kp F               &kp G               &kp H      &kp J               &kp K                       &kp L           &kp SEMICOLON   &kp ENTER
 &kp LSHFT         &kp Z         &kp X      &kp C     &kp V               &kp B               &kp SPACE  &kp SPACE           &kp N                       &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &mt RSHFT QUESTION
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LALT  &layer_tap 1 LANG1  &layer_tap 4 SPACE  &kp SPACE  &layer_tap 1 LANG4  &layer_tap 4 LANG_HIRAGANA  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LALT  &layer_tap 1 LANG1  &layer_tap 4 SPACE  &kp SPACE  &layer_tap 2 LANG4  &layer_tap 4 LANG_HIRAGANA  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
         layer_1 {
             bindings = <
-&kp ESC           &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4  &kp NUMBER_5          &kp NUMBER_6  &kp N7     &kp N8     &kp N9     &kp MINUS     &kp BACKSPACE
+&kp TAB           &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4  &kp NUMBER_5          &kp NUMBER_6  &kp N7     &kp N8     &kp N9     &kp MINUS     &kp BACKSPACE
 &kp CAPS          &kp PG_UP     &kp HOME          &kp UP_ARROW    &kp END       &kp LG(LS(NUMBER_4))  &trans        &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp PLUS      &kp ENTER
 &kp LEFT_SHIFT    &kp PG_DN     &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT     &kp LA(LS(S))         &trans        &trans     &trans     &kp KP_N1  &kp KP_N2     &kp KP_N3      &kp SLASH  &trans
 &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans          &trans        &trans                &trans        &trans     &kp KP_N0  &kp DOT    &kp ASTERISK  &trans
@@ -48,10 +48,10 @@
 
         layer_2 {
             bindings = <
-&kp ESCAPE  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5     &kp N6     &kp N7         &kp N8     &kp N9                &kp N0                 &kp DELETE
-&trans      &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT  &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans      &trans    &trans  &trans    &trans      &trans     &trans     &trans         &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH
-&trans      &trans    &trans  &trans    &trans      &trans     &trans     &trans         &trans     &trans                &trans                 &trans
+&kp TAB  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)        &kp LS(N0)         &kp DELETE
+&trans   &kp EXCL    &kp AT      &kp HASH    &kp DOLLAR  &kp PRCNT   &kp CARET   &kp EQUAL   &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans   &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans            &trans             &kp SEMICOLON  &kp SINGLE_QUOTE  &kp GRAVE
+&trans   &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans            &trans             &trans
             >;
         };
 
