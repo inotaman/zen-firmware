@@ -11,7 +11,7 @@
         bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <28 29>;
-            layers = <2>;
+            layers = <1>;
         };
     };
 
@@ -34,16 +34,16 @@
 &kp TAB           &kp Q         &kp W      &kp E     &kp R               &kp T               &kp Y      &kp U               &kp I                       &kp O           &kp P           &kp BSPC
 &kp ESC           &kp A         &kp S      &kp D     &kp F               &kp G               &kp H      &kp J               &kp K                       &kp L           &kp SEMICOLON   &kp ENTER
 &kp LSHFT         &kp Z         &kp X      &kp C     &kp V               &kp B               &kp SPACE  &kp SPACE           &kp N                       &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &mt RSHFT QUESTION
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LALT  &layer_tap 1 LANG1  &layer_tap 3 SPACE  &kp SPACE  &layer_tap 2 LANG4  &layer_tap 4 LANG_HIRAGANA  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &kp LALT  &layer_tap 1 LANG1  &layer_tap 4 SPACE  &kp SPACE  &layer_tap 1 LANG4  &layer_tap 4 LANG_HIRAGANA  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &mkp LCLK  &mo 4             &mkp RCLK  &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp RG(LEFT_BRACKET)  &mkp MB1   &mkp MB3          &mkp MB2   &kp RG(RIGHT_BRACKET)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans     &kp LC(UP_ARROW)  &trans     &trans                 &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans     &trans            &trans     &trans                 &trans
+&kp ESC           &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6          &mkp LCLK  &mo 4             &mkp RCLK  &trans                 &trans
+&kp CAPS          &trans        &trans            &trans        &trans        &trans        &kp RG(LEFT_BRACKET)  &mkp MB1   &mkp MB3          &mkp MB2   &kp RG(RIGHT_BRACKET)  &trans
+&kp LEFT_SHIFT    &trans        &trans            &trans        &trans        &trans        &trans                &trans     &kp LC(UP_ARROW)  &trans     &trans                 &trans  &trans  &trans
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans        &trans        &trans        &trans                &trans     &trans            &trans     &trans                 &trans
             >;
         };
 
