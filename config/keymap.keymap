@@ -100,10 +100,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans         &kp LG(W)         &kp LC(F3)       &trans             &trans  &trans    &trans     &trans     &trans     &trans  &trans
-&trans  &kp PAGE_UP    &kp LC(PG_UP)     &trans           &kp LC(PAGE_DOWN)  &trans  &mkp MB5  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans
-&trans  &kp PAGE_DOWN  &kp LG(LC(LEFT))  &kp LC(LG(RET))  &kp LG(LC(RIGHT))  &trans  &trans    &trans     &mkp MB4   &trans     &trans  &trans  &trans  &trans
-&trans  &trans         &trans            &trans           &trans             &trans  &trans    &trans     &trans     &trans     &trans  &trans
+&trans  &trans         &kp LG(W)         &kp LC(F3)       &trans             &trans  &trans    &trans     &trans     &trans           &trans           &trans
+&trans  &kp PAGE_UP    &kp LC(PG_UP)     &trans           &kp LC(PAGE_DOWN)  &trans  &mkp MB5  &mkp LCLK  &mkp MCLK  &mkp RCLK        &trans           &trans
+&trans  &kp PAGE_DOWN  &kp LG(LC(LEFT))  &kp LC(LG(RET))  &kp LG(LC(RIGHT))  &trans  &trans    &trans     &mkp MB4   &msc MOVE_X(15)  &msc MOVE_Y(15)  &trans  &trans  &trans
+&trans  &trans         &trans            &trans           &trans             &trans  &trans    &trans     &trans     &trans           &trans           &trans
             >;
         };
 
